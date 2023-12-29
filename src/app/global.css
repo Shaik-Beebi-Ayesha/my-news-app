@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik+Broken+Fax&display=swap');
+
+@layer components{
+    .navlink{
+        @apply text-sm text-blue-900 font-bold hover:bg-blue-900 hover:text-white px-1 mx-2 py-1 rounded-md active:bg-[#630330] active:text-white;
+    }
+}
