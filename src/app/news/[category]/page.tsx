@@ -37,7 +37,7 @@ const Page: React.FC<{ params: { category: string } }> = ({ params }) => {
     const fetchArticles = async () => {
       try {
         const response = await fetch(
-          `https://newsapi.org/v2/everything?q=${category}&apiKey=eb417353bc29429e8bf40701df2b481a`
+          `https://newsapi.org/v2/everything?q=${category}&apiKey=a9b89f52d239446390f7ea84e2f75565`
         );
         if (!response.ok) {
           throw new Error("Failed to fetch data");
