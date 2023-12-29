@@ -1,3 +1,6 @@
+News Reader App
+
+
 The News Reader app is a modern and user-friendly platform built using Next.js 14, TypeScript, Redux, Firebase, and the News API. It is designed to provide users with a seamless news reading experience while offering features such as user registration, personalized news preferences, grid view, news detail view, favorite articles, state management, responsive design, and smooth UX.
 
 => User Registration and Login with Firebase Authentication:
